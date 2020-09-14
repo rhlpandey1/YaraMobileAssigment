@@ -1,6 +1,6 @@
-16:43:25.377 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
-16:45:06.520 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
-16:57:12.990 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
-17:15:33.646 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
-17:16:41.229 [main] INFO  com.yara.testcases.AddCorpDemo - Inside addCorpOperation
-17:16:51.243 [main] INFO  com.yara.utils.Utilities - Applied static wait of 10000 Successfully
+18:58:15.569 [main] INFO  com.yara.pageObjects.CropPageObject - Clicked on buttonSaveDetails
+18:59:03.356 [main] INFO  com.yara.testcases.AddCropDemo - class com.yara.testcases.AddCropDemo
+18:59:55.643 [main] INFO  com.yara.testcases.AddCropDemo - Inside addCorpOperation
+19:00:05.659 [main] INFO  com.yara.utils.Utilities - Applied static wait of 10000 Successfully
+19:00:07.580 [main] INFO  com.yara.pageObjects.CropPageObject - Clicked on Language button
+19:00:09.876 [main] INFO  com.yara.pageObjects.CropPageObject - Clicked on Agree and Continue
