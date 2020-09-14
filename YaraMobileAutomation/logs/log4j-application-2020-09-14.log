@@ -1,0 +1,6 @@
+16:43:25.377 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
+16:45:06.520 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
+16:57:12.990 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
+17:15:33.646 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
+17:16:41.229 [main] INFO  com.yara.testcases.AddCorpDemo - Inside addCorpOperation
+17:16:51.243 [main] INFO  com.yara.utils.Utilities - Applied static wait of 10000 Successfully

@@ -1,0 +1,5 @@
+17:41:04.034 [main] INFO  com.yara.testcases.AddCorpDemo - class com.yara.testcases.AddCorpDemo
+17:42:05.350 [main] INFO  com.yara.testcases.AddCorpDemo - Inside addCorpOperation
+17:42:15.351 [main] INFO  com.yara.utils.Utilities - Applied static wait of 10000 Successfully
+17:42:18.889 [main] INFO  com.yara.pageObjects.CorpPageObject - Clicked on Language button
+17:42:22.287 [main] INFO  com.yara.pageObjects.CorpPageObject - Clicked on Agree and Continue
