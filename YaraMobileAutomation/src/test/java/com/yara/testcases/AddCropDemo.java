@@ -14,7 +14,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.yara.pageObjects.CorpPageObject;
+import com.yara.pageObjects.CropPageObject;
 
 import com.yara.utils.Utilities;
 import io.appium.java_client.MobileElement;
@@ -22,9 +22,9 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import com.yara.utils.*;
 
-public class AddCorpDemo {
+public class AddCropDemo {
 	AndroidDriver<MobileElement> driver;
-	private static Logger log=LogManager.getLogger(AddCorpDemo.class.getName());
+	private static Logger log=LogManager.getLogger(AddCropDemo.class.getName());
 	@BeforeTest
 	
 	//Using apk file from Project
@@ -74,13 +74,18 @@ public class AddCorpDemo {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	@Test
-	public void addCorpOperation() throws InterruptedException
+	public void addCorpOperation() throws InterruptedException, IOException
 	{
-		CorpPageObject corpPage=new CorpPageObject(driver);
+		CropPageObject cropPage=new CropPageObject(driver);
 		log.info("Inside addCorpOperation");
 		Utilities.staticWait(10000);
-		corpPage.clickOnLanguage();
-		corpPage.clickOnAgree();
+		cropPage.clickOnLanguage();
+		cropPage.clickOnAgree();
+		cropPage.clickOnAddCrops();
+		/*List<String> list=Utilities.getData("tesData.xlsx", "yara", "TC_01");
+		String farmName=list.get(1);*/
+		cropPage.enterFarmName("Test");
+		cropPage.clickOnSave();
 		
 	}
 	@AfterTest
